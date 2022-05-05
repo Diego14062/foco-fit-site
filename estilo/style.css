@@ -1,0 +1,62 @@
+@font-face {
+    font-family:LEMON-MILK;
+    src: url(LEMONMILK-Bold.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(37, 32, 32);
+    flex-direction: row;
+    height: 100px;
+   
+}
+
+.menu{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+
+}
+
+.list-menu {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+
+#logo-img{
+    height: auto;
+    width: 150px;
+
+
+
+}
+
+p {
+    color: white;
+    
+    text-decoration: none;
+
+
+}
+
+.background {
+    width: 100%;
+     
+
+
+}
